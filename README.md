@@ -45,7 +45,7 @@ This project is currently in **Public Beta**. It is an open-ended, DIY maker pro
 
 ### 💬 Slicing Recommendations & Printing Tips
 
-TBD
+* **Build Plate Requirement:** You will need a printer with a build plate of at least **220 × 220 mm** to print the parts.
 
 ### Bill of Materials (BOM) (incomplete)
 
