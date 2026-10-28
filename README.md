@@ -15,22 +15,32 @@ This project is currently in **Public Beta**. It is an open-ended, DIY maker pro
 
 ### 📐 Baseline Hardware Specifications
 
-### Core Architecture
+### Core Architecture & Dimensions
 
-* **Kinematics:** Cartesian
+* **Kinematics:** Cartesian crossed-cantilever
+* **Build Volume:** 183.5 × 183.5 × 166 mm (X × Y × Z)
 * **Linear Motion:** MGN12H Linear Rails
-* **Z-Axis:** Block & Tackle with GT2 timing belt
+* **Z-Axis:** Dual Z steppers with 3:1 gear reduction (Block & Tackle with GT2 timing belt)
+* **Motion Dynamics:**
+  * Max Velocity: 800 mm/s (Max Z Velocity: 150 mm/s)
+  * Max Acceleration: 12,000 mm/s² (Max Z Acceleration: 2000 mm/s²)
 
 ### Electronics & Motion Control
 
-* **Mainboard:** **BigTreeTech Manta M5P**
-* **Firmware:** **Klipper** (Baseline configuration file provided in the [klipper-manta-m5p](/klipper-manta-m5p) folder)
-* **Motors:** Standard Nema 17 Stepper Motors 38 mm in length
+* **Mainboard:** **BigTreeTech Manta M5P** with **CB1** compute module
+* **Firmware:** **Klipper** (Baseline configuration files provided in the [klipper-manta-m5p](/klipper-manta-m5p) folder)
+* **Stepper Drivers:** 5× TMC2209 running in UART mode
+* **Homing:** Sensorless homing (StallGuard) on X and Y axes; Safe Z Homing via probe
+* **Motors:** Standard NEMA 17 Stepper Motors (38 mm body length)
+* **Host Cooling:** Temperature-controlled CB1 SoC fan
 
-### Toolhead Configuration
+### Toolhead & Thermal Configuration
 
-* **Hotend:** **E3D Revo Voron Probe**
-* **Bed Leveling:** Integrated Z-probe
+* **Hotend:** **E3D Revo Voron PZ Probe** (ATC Semitec 104NT thermistor, up to 270°C)
+* **Extruder:** Ender 3 compatible direct drive extruder (1.75 mm filament, 0.40 mm nozzle)
+* **Heated Bed:** Ender 3 compatible heated bed with Generic 3950 thermistor (up to 90°C)
+* **Bed Leveling:** Integrated Z-probe with 7×7 bicubic mesh leveling compensation
+* **Part Cooling:** Dual 4010 high-speed radial blower fans
 * **Customization:** The print head STEP file: [/CAD_Toolhead/print-head.step](/CAD_Toolhead/print-head.step)
 
 ### 💬 Slicing Recommendations & Printing Tips
@@ -51,7 +61,7 @@ I've sourced my parts mostly from german amazon shop.
 | **Miniature Ball Bearings**     | 4        | 685-ZZ (5x11x5 mm)                               | https://www.amazon.de/dp/B092Q5M7FY                                                                           |
 | **Nema 17 Stepper Motor**       | 4 + 1    | 38 mm body length                                | -                                                                                                             |
 | **Extruder**                    | 1        | Ender 3 compatible extruder                      | https://www.amazon.de/dp/B09ZDQM6P6 (with stepper) <br> https://www.amazon.de/dp/B09H6T3NNT (without stepper) |
-| **E3D Revo Voron Probe**        | 1        | Toolhead integrated probe & hotend setup         | -                                                                                                             |
+| **E3D Revo Voron PZ Probe**     | 1        | Toolhead integrated probe & hotend setup         | -                                                                                                             |
 | **Cooling Fan 4010**            | 2        | 4010 axial fans                                  | -                                                                                                             |
 | **High Speed 4010 Blowers**     | 2        | 4010 radial blower fans for part cooling         | https://www.amazon.de/dp/B0DMZWJJPJ                                                                           |
 | **Heated Bed**                  | 1        | Ender 3 compatible heated bed assembly           | https://www.amazon.de/dp/B08DRJM9S4                                                                           |
