@@ -1,10 +1,10 @@
 ### Crossed-Cantilever DIY 3D Printer (Public Beta)
 
-Welcome to the official repository for the **N3D** a Crossed-Cantilever 3D Printer originally released by [Casual CNC](https://www.youtube.com/@CasualCNC). 
+Welcome to the official repository for the **N3D**, a Crossed-Cantilever 3D Printer originally released by [Casual CNC](https://www.youtube.com/@CasualCNC).
 
 This repository serves as the central hub for the printer's documentation, electronics configuration, toolhead CAD customizations, and community feedback.
 
-### 🛠 Project Status: Open Beta (Phase 1)
+### Project Status: Open Beta (Phase 1)
 
 This project is currently in **Public Beta**. It is an open-ended, DIY maker project intended for experienced builders who enjoy mechanical troubleshooting, sourcing hardware, and tuning Klipper configurations. 
 
@@ -12,8 +12,6 @@ This project is currently in **Public Beta**. It is an open-ended, DIY maker pro
 * **Toolhead / Print Head:** Distributed with **Full CAD files (STEP)** to allow for custom community remixes and alternative hardware mounts.
 
 👉 **[Printer Files are also available on Printables.com](https://www.printables.com/model/1892989-crossed-cantilever-3d-printer-diy)** 
-
-### 📐 Baseline Hardware Specifications
 
 ### Core Architecture & Dimensions
 
@@ -43,13 +41,13 @@ This project is currently in **Public Beta**. It is an open-ended, DIY maker pro
 * **Part Cooling:** Dual 4010 high-speed radial blower fans
 * **Customization:** The print head STEP file: [/CAD_Toolhead/print-head.step](/CAD_Toolhead/print-head.step)
 
-### 💬 Slicing Recommendations & Printing Tips
+### Slicing Recommendations & Printing Tips
 
 * **Build Plate Requirement:** You will need a printer with a build plate of at least **220 × 220 mm** to print the parts.
 
-### Bill of Materials (BOM) (incomplete)
+### Bill of Materials (BOM) (partial)
 
-I've sourced my parts mostly from german amazon shop.
+Parts were sourced primarily from Amazon.de.
 
 | Item                            | Quantity | Notes / Description                              | Sourcing Link                                                                                                 |
 |:--------------------------------|:---------|:-------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
@@ -67,14 +65,14 @@ I've sourced my parts mostly from german amazon shop.
 | **Heated Bed**                  | 1        | Ender 3 compatible heated bed assembly           | https://www.amazon.de/dp/B08DRJM9S4                                                                           |
 | **Magnetic Bed Surface**        | 1        | Ender 3 compatible flexible magnetic build plate | https://www.amazon.de/dp/B07SW9BQKS                                                                           |
 | **Mainboard & Compute Kit**     | 1        | BTT Manta M5P + CB1 + 5x TMC2209 stepper drivers | -                                                                                                             |
-| **Power Supply**                | 1        | 300 W, 24 V *SLIM* power supply 21x6x2 cm        | https://www.amazon.de/dp/B0F7XF7X4Q                                                                           |
+| **Power Supply**                | 1        | 300 W, 24 V *SLIM* power supply 21x6x2 cm       | https://www.amazon.de/dp/B0F7XF7X4Q                                                                           |
 | **Accelerometer Board**         | 1        | BIGTREETECH ADXL345 V2.0 for input shaping       | -                                                                                                             |
 | **USB Adapter / Cable**         | 1        | USB connection                                   | https://www.amazon.de/dp/B0FHZN6ZYF                                                                           |
 | **Cable Sleeve**                | 1        | Cable management sleeving                        | https://www.amazon.de/dp/B07FW5H57B                                                                           |
 | **Square Nuts**                 | 1 pack   | M3 square nuts                                   | https://www.amazon.de/dp/B0F5WBDM3X                                                                           |
 | **Fasteners**                   | Various  | M3 screws (assorted lengths)                     | -                                                                                                             |
 
-### 📄 License
+### License
 
 This project and all associated files — including 3D models, CAD designs, firmware configurations, documentation, and the Bill of Materials—are licensed under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license.
 
