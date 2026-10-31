@@ -43,7 +43,8 @@ This project is currently in **Public Beta**. It is an open-ended, DIY maker pro
 
 ### Slicing Recommendations & Printing Tips
 
-* **Build Plate Requirement:** You will need a printer with a build plate of at least **220 × 220 mm** to print the parts.
+* **Build Plate Requirement:** You will need a printer with a build plate of at least **220 × 220 mm** to print most parts.
+* **Gantry Minimum Size:** The minimum required bed size for printing the gantry as a single part is around **242 × 242 mm**.
 
 ### Bill of Materials (BOM) (partial)
 
