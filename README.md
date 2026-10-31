@@ -66,10 +66,12 @@ Parts were sourced primarily from Amazon.de.
 | **Heated Bed**                  | 1        | Ender 3 compatible heated bed assembly           | https://www.amazon.de/dp/B08DRJM9S4                                                                           |
 | **Magnetic Bed Surface**        | 1        | Ender 3 compatible flexible magnetic build plate | https://www.amazon.de/dp/B07SW9BQKS                                                                           |
 | **Mainboard & Compute Kit**     | 1        | BTT Manta M5P + CB1 + 5x TMC2209 stepper drivers | -                                                                                                             |
-| **Power Supply**                | 1        | 300 W, 24 V *SLIM* power supply 21x6x2 cm       | https://www.amazon.de/dp/B0F7XF7X4Q                                                                           |
+| **Power Supply**                | 1        | 300 W, 24 V *SLIM* power supply 21x6x2 cm        | https://www.amazon.de/dp/B0F7XF7X4Q                                                                           |
 | **Accelerometer Board**         | 1        | BIGTREETECH ADXL345 V2.0 for input shaping       | -                                                                                                             |
 | **USB Adapter / Cable**         | 1        | USB connection                                   | https://www.amazon.de/dp/B0FHZN6ZYF                                                                           |
 | **Cable Sleeve**                | 1        | Cable management sleeving                        | https://www.amazon.de/dp/B07FW5H57B                                                                           |
+| **M3 Inserts**                  | 23+      | 15 Base + 4 Adapter + 4 Tensioners               |                                                                                                               |
+| **M4 Inserts**                  | 4        | 3 Base + 1 Bed Adapter                           |                                                                                                               |
 | **Square Nuts**                 | 1 pack   | M3 square nuts                                   | https://www.amazon.de/dp/B0F5WBDM3X                                                                           |
 | **Fasteners**                   | Various  | M3 screws (assorted lengths)                     | -                                                                                                             |
 
