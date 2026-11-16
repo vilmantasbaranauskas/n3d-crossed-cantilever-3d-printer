@@ -11,7 +11,9 @@ This project is currently in **Public Beta**. It is an open-ended, DIY maker pro
 * **Printer Frame & Core Motion:** Distributed as **STL files only** for this initial phase.
 * **Toolhead / Print Head:** Distributed with **Full CAD files (STEP)** to allow for custom community remixes and alternative hardware mounts.
 
-👉 **[Printer Files are also available on Printables.com](https://www.printables.com/model/1892989-crossed-cantilever-3d-printer-diy)** 
+👉 **[Printer Files are also available on Printables.com](https://www.printables.com/model/1892989-crossed-cantilever-3d-printer-diy)** 
+
+🎥 **[Assembly Video Part 1 on YouTube](https://www.youtube.com/watch?v=z4k570kHDuc)**
 
 ### Core Architecture & Dimensions
 

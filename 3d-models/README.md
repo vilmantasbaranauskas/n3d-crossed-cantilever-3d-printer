@@ -13,12 +13,14 @@ The gantry component is provided in two options to accommodate different printer
 
 ### Filaments Used For Assembly Video
 
+🎥 **[Assembly Video Part 1 on YouTube](https://www.youtube.com/watch?v=z4k570kHDuc)**
+
 #### PLA-FR (Spectrum FlameGuard PLA)
 
 - base (`base.3mf`)
 - 1 + 1 mirror timing-belt-holder-bottom (`timing-belt-holder-bottom.3mf`)
 - 2x transformer-holder (`transformer-holder.3mf`)
-- manta m5p adapters
+- manta-m5p-adapter-left / manta-m5p-adapter-right (`manta-m5p-adapter-left.3mf`, `manta-m5p-adapter-right.3mf`)
 - gantry-left / gantry-center / gantry-right (`gantry-left.3mf`, `gantry-center.3mf`, `gantry-right.3mf`)
   or alternatively gantry as a single part (`gantry-as-one-part.3mf`)
 - belt-tensioner (`belt-tensioner.3mf`)
@@ -49,3 +51,22 @@ The gantry component is provided in two options to accommodate different printer
 - 4x nema17-damper-2.8-1.8mm (`nema17-damper-2.8-1.8mm.3mf`)
 - fan-damper (`fan-damper.3mf`)
 - 6x m3-damper (`m3-damper.3mf`)
+
+### Changelog
+
+All notable changes, model fixes, and revisions for the printable 3D models are documented in this section.
+
+#### Beta 2 - 2026-11-15
+- **Fixed**: Length of `gt2-15t.3mf` and `gt2-16t.3mf`.
+- **Fixed**: Height of `m3-damper.3mf`.
+- **Added**: Power supply cover for safety (`power-supply-cover.3mf`).
+- **Added**: Adapter-based mainboard mounting, allowing boards other than the Manta M5P to be used. Two new parts: `manta-m5p-adapter-left.3mf` and `manta-m5p-adapter-right.3mf`.
+- **Added**: Two new parts for warp correction of the base corners: `warp-correction-1.3mf` and `warp-correction-2.3mf` (3 for the front and side corners and 1 for the back).
+- **Changed**: `base.3mf` now uses the Manta M5P adapters for mainboard mounting.
+- **Removed**: Technical text imprint on `gantry-xy-lr-0.3mf`.
+
+#### Hotfix - 2026-11-01
+- **Fixed**: `timing-belt-holder-bottom.3mf` broken model issue in Beta 1.
+
+#### Beta 1 - 2026-10-27
+- Initial release of Beta 1 printable 3D models.
