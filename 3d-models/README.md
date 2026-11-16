@@ -52,6 +52,17 @@ The gantry component is provided in two options to accommodate different printer
 - fan-damper (`fan-damper.3mf`)
 - 6x m3-damper (`m3-damper.3mf`)
 
+### Print Settings Used For Assembly Video
+
+These are the settings and observations from the assembly video, not definitive slicer recommendations. See the [Part 1 assembly guide](../ASSEMBLY.md) for assembly steps and hardware details.
+
+- **Base (`base.3mf`):** Printed at 220 × 220 mm with 3 wall loops, rectilinear infill, and no brim; the print took over 9 hours and weighed about 300 g. Even with good bed adhesion, the corners warped and the magnetic build plate lifted. The cover stiffens the otherwise flexible base; the Beta 2 warp-correction feet (`warp-correction-1.3mf` and `warp-correction-2.3mf`) help level it and conceal corner warping.
+- **Gantry (`gantry-left.3mf`, `gantry-center.3mf`, `gantry-right.3mf`):** The assembly video uses the three-part version for a 220 × 220 mm bed. Use gyroid infill and 4 wall loops; the center needs supports, and the left and right parts need a brim and supports to keep them upright. A gantry printed as one part requires about a 242 × 242 mm bed.
+- **Top frame (`top-frame.3mf`):** Use a brim. Positioning on a 220 × 220 mm plate is tight; manually find the small area where the part fits because automatic slicer placement may not work.
+- **GT2 pulleys (`gt2-15t.3mf`, `gt2-16t.3mf`):** Print in PETG-CF at a high temperature for layer adhesion, with a random seam. Use 15T pulleys for Z and 16T pulleys for X and Y.
+- **Bottom timing-belt holders (`timing-belt-holder-bottom.3mf`):** Print one part and use the slicer's clone and mirror functions for the left and right versions.
+- **General notes:** The build used Spectrum FlameGuard PLA, Sunlu ABS-FR, Tinmorry PETG-CF, and Overture TPU 95A. Filaments were not fully calibrated, so some prints showed slight under-extrusion and imperfect layer adhesion; the parts were considered usable for assembly, with superglue used where needed. Printing gantry sections in different orientations may also produce slight color-shade differences.
+
 ### Changelog
 
 All notable changes, model fixes, and revisions for the printable 3D models are documented in this section.

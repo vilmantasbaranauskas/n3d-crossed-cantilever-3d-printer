@@ -15,6 +15,8 @@ This project is currently in **Public Beta**. It is an open-ended, DIY maker pro
 
 🎥 **[Assembly Video Part 1 on YouTube](https://www.youtube.com/watch?v=z4k570kHDuc)**
 
+The **Beta 2** model files include the fixed and updated parts. Follow the [Part 1 assembly guide](ASSEMBLY.md) while building; the [3D models README](3d-models/README.md) lists the filaments and print settings used in the assembly video.
+
 ### Core Architecture & Dimensions
 
 * **Kinematics:** Cartesian crossed-cantilever
@@ -56,7 +58,7 @@ Parts were sourced primarily from Amazon.de.
 |:--------------------------------|:---------|:-------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
 | **MGN12H Linear Rail (300 mm)** | 3        | 30 cm linear rail with carriage block            | -                                                                                                             |
 | **MGN12H Linear Rail (250 mm)** | 4        | 25 cm linear rail with carriage block            | -                                                                                                             |
-| **GT2 Timing Belt**             | 1        | 6 mm width belt for motion axes                  | -                                                                                                             |
+| **GT2 Timing Belt**             | 1        | 6 mm width; approximately 115 cm for each Z-axis side | -                                                                                                        |
 | **GT2 16T Toothed Idlers**      | 8        | 16-tooth idler pulleys                           | -                                                                                                             |
 | **GT2 16 Smooth Idlers**        | 4        | Toothless idler pulleys                          | -                                                                                                             |
 | **Miniature Ball Bearings**     | 4        | 685-ZZ (5x11x5 mm)                               | https://www.amazon.de/dp/B092Q5M7FY                                                                           |
@@ -73,9 +75,12 @@ Parts were sourced primarily from Amazon.de.
 | **USB Adapter / Cable**         | 1        | USB connection                                   | https://www.amazon.de/dp/B0FHZN6ZYF                                                                           |
 | **Cable Sleeve**                | 1        | Cable management sleeving                        | https://www.amazon.de/dp/B07FW5H57B                                                                           |
 | **M3 Inserts**                  | 23+      | 15 Base + 4 Adapter + 4 Tensioners               |                                                                                                               |
-| **M4 Inserts**                  | 4        | 3 Base + 1 Bed Adapter                           |                                                                                                               |
+| **M4 Inserts**                  | 4        | 3 Base + 1 Cover                                 |                                                                                                               |
 | **Square Nuts**                 | 1 pack   | M3 square nuts                                   | https://www.amazon.de/dp/B0F5WBDM3X                                                                           |
 | **Fasteners**                   | Various  | M3 screws (assorted lengths)                     | -                                                                                                             |
+| **Rubber Grip Tape**            | As needed| Cut to fit under the base feet for grip and damping; rubber rail stoppers are an alternative | -                                           |
+| **Zip Ties**                    | 2        | Secure the power-supply cable                     | -                                                                                                             |
+| **Superglue**                   | As needed| Gantry joints, printed pulleys, and grip tape     | -                                                                                                             |
 
 ### License
 
