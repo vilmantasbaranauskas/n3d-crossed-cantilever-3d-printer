@@ -51,6 +51,8 @@ The prints in the video were not perfectly calibrated and showed some under-extr
 
 ### Block and Tackle
 
+The Z-axis uses a block-and-tackle system driven by two Z steppers, with one GT2 timing belt per side, giving a 3:1 reduction.
+
 1. Prepare approximately 115 cm of 6 mm-wide GT2 belt for each side.
 2. To feed the belt through the idlers, place a small piece of paper over its tip and push it through.
 3. Attach one end of the belt to the gantry with a belt holder. Route it over and under the idlers in the up-and-down pattern shown in the video.

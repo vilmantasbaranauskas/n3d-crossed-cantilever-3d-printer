@@ -4,6 +4,19 @@ Welcome to the official repository for the **N3D**, a Crossed-Cantilever 3D Prin
 
 This repository serves as the central hub for the printer's documentation, electronics configuration, toolhead CAD customizations, and community feedback.
 
+### Purpose of This Printer
+
+**This is mostly a DIY playground printer, not a machine for primary printing needs.** If you need a printer for everyday work, consider other options.
+
+**The distinctive design and look are the main draw.** Instead of a traditional frame and motion system, the N3D is built around a crossed-cantilever layout. Its gantry is carried by cantilever arms anchored on two perpendicular sides, giving the printer a visually striking, open look.
+
+* **Built for curiosity and learning:** The project was not made to solve an engineering problem or to outperform traditional designs. It is a personal experiment to learn from and to see something unusual in motion.
+* **Not a CoreXY replacement:** It is not meant to replace CoreXY or conventional Cartesian frame printers. Cantilever arms lose stiffness as they grow longer, so the current build is already close to its practical size limit, and the cantilevers add vibration and flex.
+* **Open-frame access:** The open layout leaves the build area easy to reach from the front side and lets the printer sit neatly in a corner. Some describe it as "a perfect desktop corner printer."
+* **Block-and-tackle Z-axis:** The Z-axis uses a dual block-and-tackle system with a GT2 timing belt for a 3:1 reduction. This approach is extremely rare in 3D printers, which surprises the author because it is simple to implement and works very well.
+
+**Build it if** you enjoy mechanical troubleshooting, want to explore an unconventional design, and accept its rigidity limits. **Skip it if** you need a reliable, high-precision printer for regular printing.
+
 ### Project Status: Open Beta (Phase 1)
 
 This project is currently in **Public Beta**. It is an open-ended, DIY maker project intended for experienced builders who enjoy mechanical troubleshooting, sourcing hardware, and tuning Klipper configurations. 
@@ -22,7 +35,7 @@ The **Beta 2** model files include the fixed and updated parts. Follow the [Part
 * **Kinematics:** Cartesian crossed-cantilever
 * **Build Volume:** 183.5 × 183.5 × 166 mm (X × Y × Z)
 * **Linear Motion:** MGN12H Linear Rails
-* **Z-Axis:** Dual Z steppers with 3:1 gear reduction (Block & Tackle with GT2 timing belt)
+* **Z-Axis:** Dual Z steppers with 3:1 reduction (block-and-tackle with GT2 timing belt)
 * **Motion Dynamics:**
   * Max Velocity: 800 mm/s (Max Z Velocity: 150 mm/s)
   * Max Acceleration: 12,000 mm/s² (Max Z Acceleration: 2000 mm/s²)
