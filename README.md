@@ -21,8 +21,8 @@ This repository serves as the central hub for the printer's documentation, elect
 
 This project is currently in **Public Beta**. It is an open-ended, DIY maker project intended for experienced builders who enjoy mechanical troubleshooting, sourcing hardware, and tuning Klipper configurations. 
 
-* **Printer Frame & Core Motion:** Distributed as **STL files only** for this initial phase.
-* **Toolhead / Print Head:** Distributed with **Full CAD files (STEP)** to allow for custom community remixes and alternative hardware mounts.
+* **Printable Parts:** Distributed as **3MF files** in the [3d-models](3d-models/README.md) folder.
+* **CAD Files (STEP):** Available for most printer parts in the [cad](cad) folder: [`n3d-main.step`](cad/n3d-main.step) (main printer parts) and [`print-block.step`](cad/print-block.step) (print block), to allow for custom community remixes and alternative hardware mounts.
 
 👉 **[Printer Files are also available on Printables.com](https://www.printables.com/model/1892989-crossed-cantilever-3d-printer-diy)** 
 
@@ -56,7 +56,7 @@ The **Beta 2** model files include the fixed and updated parts. Follow the [Part
 * **Heated Bed:** Ender 3 compatible heated bed with Generic 3950 thermistor (up to 90°C)
 * **Bed Leveling:** Integrated Z-probe with 7×7 bicubic mesh leveling compensation
 * **Part Cooling:** Dual 4010 high-speed radial blower fans
-* **Customization:** The print head STEP file: [/CAD_Toolhead/print-head.step](/CAD_Toolhead/print-head.step)
+* **Customization:** STEP files for the print block ([cad/print-block.step](cad/print-block.step)) and the main printer parts ([cad/n3d-main.step](cad/n3d-main.step))
 
 ### Slicing Recommendations & Printing Tips
 
