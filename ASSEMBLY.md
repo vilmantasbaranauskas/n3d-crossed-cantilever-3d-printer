@@ -23,7 +23,7 @@ The prints in the video were not perfectly calibrated and showed some under-extr
 
 #### Install the power supply and Z-axis motors
 
-1. Before installing the power supply, read the safety disclaimer shown in the assembly video. The power supply contains hazardous high-voltage areas. Secure its cable with two zip ties and cover the high-voltage area with `power-supply-cover.3mf`, then fasten the supply in place.
+1. Before installing the power supply, read the safety disclaimer shown in the assembly video. The power supply contains hazardous high-voltage areas. Secure its cable with two zip ties and cover the high-voltage area with `psu-cover-h19.3mf`, then fasten the supply in place.
 2. Attach the three vertical rails to the base.
 3. Print two `gt2-15t.3mf` pulleys in PETG-CF for the Z-axis. The pulley ends are asymmetric: the side that was against the build plate faces outward when installed. Secure each pulley to its motor shaft with a small amount of superglue to prevent backlash. This makes the pulley non-reusable; it must be broken to remove. Clean excess glue from the shaft before fitting the ball bearing.
 4. Prepare two `timing-belt-holder-bottom.3mf` parts by using the slicer's clone and mirror functions to create the left and right versions. Fit a 16T idler in each and secure it with an M3 screw; tighten gently to avoid over-tensioning the idler.
